@@ -13,7 +13,7 @@ function Contact() {
       <form action="" className="contact-page">
         <label >Name</label>
         <input type="text" /><br />
-        <label >Email</label>
+        <label >Email-Id</label>
         <input type="email" /><br />
         <label >Message</label>
         <textarea type="message" />
