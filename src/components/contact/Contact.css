@@ -1,0 +1,48 @@
+#contact{
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+}
+
+
+#contact{
+  display:flex;
+}
+.leftcontact{
+   width: 50%;
+   height:100%;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+}
+
+.leftcontact img{
+  width: 70%;
+  
+}
+
+.leftcontact h2{
+  margin-top:25px;
+   background: linear-gradient(to right, rgba(198, 42, 96), white);
+  background-clip: text;     /* used to give only behind the text */
+  color: transparent; 
+}
+
+
+.leftcontact img:hover{
+  filter: drop-shadow(4px 4px 25px rgba(66, 180, 205, 0.9));
+}
+
+
+.rightcontact{
+  width:50%;
+  height:100vh;
+ diplay:flex;
+ justify-content:center;
+ text-align:center;
+}
+
+.contact-page{
+background:red;
+}
